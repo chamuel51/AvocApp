@@ -14,6 +14,7 @@
 		5020969A27CAF870007AF858 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969927CAF86F007AF858 /* RecipeCardView.swift */; };
 		5020969C27CC0B63007AF858 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969B27CC0B63007AF858 /* RecipeRatingView.swift */; };
 		5020969E27CC0CA7007AF858 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969D27CC0CA7007AF858 /* RecipeCookingView.swift */; };
+		502096A027CC2601007AF858 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969F27CC2601007AF858 /* RecipeDetailView.swift */; };
 		5027043327C806A300264271 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027043227C806A300264271 /* HeaderModel.swift */; };
 		5027043527C806FA00264271 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027043427C806FA00264271 /* HeaderData.swift */; };
 		5027043727C8187E00264271 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027043627C8187E00264271 /* DishesView.swift */; };
@@ -38,6 +39,7 @@
 		5020969927CAF86F007AF858 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		5020969B27CC0B63007AF858 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		5020969D27CC0CA7007AF858 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		5020969F27CC2601007AF858 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		5027043227C806A300264271 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		5027043427C806FA00264271 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		5027043627C8187E00264271 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5027043627C8187E00264271 /* DishesView.swift */,
 				5027043827C8970800264271 /* FactsView.swift */,
 				5020969927CAF86F007AF858 /* RecipeCardView.swift */,
+				5020969F27CC2601007AF858 /* RecipeDetailView.swift */,
 				5020969B27CC0B63007AF858 /* RecipeRatingView.swift */,
 				5020969D27CC0CA7007AF858 /* RecipeCookingView.swift */,
 			);
@@ -230,6 +233,7 @@
 				5020969A27CAF870007AF858 /* RecipeCardView.swift in Sources */,
 				5020969827CAF3B5007AF858 /* RecipeData.swift in Sources */,
 				5054300D27C5EFB70094138E /* HeaderView.swift in Sources */,
+				502096A027CC2601007AF858 /* RecipeDetailView.swift in Sources */,
 				5020969427CAE232007AF858 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
