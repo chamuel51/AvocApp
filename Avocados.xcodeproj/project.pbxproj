@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500842C527CF48BB003B4AED /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500842C427CF48BB003B4AED /* RipeningView.swift */; };
 		5020969227CADECE007AF858 /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969127CADECE007AF858 /* FactsModel.swift */; };
 		5020969427CAE232007AF858 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969327CAE232007AF858 /* FactData.swift */; };
 		5020969627CAECBB007AF858 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969527CAECBB007AF858 /* RecipeModel.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500842C427CF48BB003B4AED /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 		5020969127CADECE007AF858 /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
 		5020969327CAE232007AF858 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 		5020969527CAECBB007AF858 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				5027043627C8187E00264271 /* DishesView.swift */,
 				5027043827C8970800264271 /* FactsView.swift */,
 				5020969927CAF86F007AF858 /* RecipeCardView.swift */,
+				500842C427CF48BB003B4AED /* RipeningView.swift */,
 				5020969F27CC2601007AF858 /* RecipeDetailView.swift */,
 				5020969B27CC0B63007AF858 /* RecipeRatingView.swift */,
 				5020969D27CC0CA7007AF858 /* RecipeCookingView.swift */,
@@ -228,6 +231,7 @@
 				5027043327C806A300264271 /* HeaderModel.swift in Sources */,
 				5027043527C806FA00264271 /* HeaderData.swift in Sources */,
 				5020969E27CC0CA7007AF858 /* RecipeCookingView.swift in Sources */,
+				500842C527CF48BB003B4AED /* RipeningView.swift in Sources */,
 				5027043727C8187E00264271 /* DishesView.swift in Sources */,
 				5027043927C8970900264271 /* FactsView.swift in Sources */,
 				5020969A27CAF870007AF858 /* RecipeCardView.swift in Sources */,
