@@ -12,7 +12,7 @@ struct SettingsView: View {
     
     @State private var enableNotification: Bool = true
     @State private var backgroundRefresh: Bool = false
-
+    
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
             //MARK: - HEADER
@@ -26,7 +26,7 @@ struct SettingsView: View {
                 Text("Avocados".uppercased())
                     .font(.system(.title, design: .serif))
                     .fontWeight(.bold)
-                .foregroundColor(Color("ColorGreenAdaptive"))
+                    .foregroundColor(Color("ColorGreenAdaptive"))
             }
             .padding()
             
@@ -81,7 +81,7 @@ struct SettingsView: View {
                             Text("We did it!!!")
                         }
                     }
-                
+                    
                 }
             }
         }
