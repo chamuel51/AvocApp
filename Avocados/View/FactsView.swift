@@ -18,7 +18,7 @@ struct FactsView: View {
                 .padding(.trailing,10)
                 .padding(.vertical,3)
                 .frame(width: 300, height: 135, alignment: .center)
-                .background(LinearGradient(gradient: Gradient(colors: [Color("ColorGreenMedium"), Color("ColorGreenLight")]), startPoint: .leading, endPoint: .trailing))
+                .background(LinearGradient(gradient: Gradient(colors: [Color("ColorGreenMedium"), .blue]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(12)
                 .lineLimit(6)
                 .multilineTextAlignment(.leading)

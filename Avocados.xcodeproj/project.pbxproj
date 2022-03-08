@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		500842C527CF48BB003B4AED /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500842C427CF48BB003B4AED /* RipeningView.swift */; };
+		500842C727D0B16D003B4AED /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500842C627D0B16D003B4AED /* RipeningModel.swift */; };
+		500842C927D0B2CD003B4AED /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500842C827D0B2CD003B4AED /* RipeningData.swift */; };
 		5020969227CADECE007AF858 /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969127CADECE007AF858 /* FactsModel.swift */; };
 		5020969427CAE232007AF858 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969327CAE232007AF858 /* FactData.swift */; };
 		5020969627CAECBB007AF858 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020969527CAECBB007AF858 /* RecipeModel.swift */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		500842C427CF48BB003B4AED /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		500842C627D0B16D003B4AED /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		500842C827D0B2CD003B4AED /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 		5020969127CADECE007AF858 /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
 		5020969327CAE232007AF858 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 		5020969527CAECBB007AF858 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				5027043427C806FA00264271 /* HeaderData.swift */,
 				5020969327CAE232007AF858 /* FactData.swift */,
 				5020969727CAF3B5007AF858 /* RecipeData.swift */,
+				500842C827D0B2CD003B4AED /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				5027043227C806A300264271 /* HeaderModel.swift */,
 				5020969127CADECE007AF858 /* FactsModel.swift */,
 				5020969527CAECBB007AF858 /* RecipeModel.swift */,
+				500842C627D0B16D003B4AED /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,8 +227,10 @@
 			files = (
 				50B8360627BE4C27003C6EE2 /* SettingsView.swift in Sources */,
 				5020969C27CC0B63007AF858 /* RecipeRatingView.swift in Sources */,
+				500842C727D0B16D003B4AED /* RipeningModel.swift in Sources */,
 				50499BFF27BCCE0200C176B9 /* ContentView.swift in Sources */,
 				50B8360827BE4C75003C6EE2 /* AppView.swift in Sources */,
+				500842C927D0B2CD003B4AED /* RipeningData.swift in Sources */,
 				50B8360427BE4C14003C6EE2 /* RipeningStagesView.swift in Sources */,
 				50499BFD27BCCE0200C176B9 /* AvocadosApp.swift in Sources */,
 				5020969227CADECE007AF858 /* FactsModel.swift in Sources */,
@@ -367,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
@@ -387,6 +396,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chamuel.castillo.Avocados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,6 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
@@ -419,6 +430,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chamuel.castillo.Avocados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
