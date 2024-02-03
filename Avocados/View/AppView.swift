@@ -29,9 +29,9 @@ struct AppView: View {
                 .tabItem {
                     Image("tabicon-settings")
                     Text("Settings")
-                }
-            
+                }            
         }
+        .accentColor(Color("accentColor"))
     }
 }
 

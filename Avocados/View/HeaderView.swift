@@ -35,7 +35,7 @@ struct HeaderView: View {
                 VStack(alignment: .leading, spacing: 6){
                     
                     Text(header.headline)
-                        .font(.system(.title,design: .serif))
+                        .font(.system(.title))
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .shadow( radius: 3)

@@ -28,7 +28,7 @@ struct RecipeDetailView: View {
                 Group {
                     //TITLE
                     Text(recipe.title)
-                        .font(.system(.title,design: .serif))
+                        .font(.title)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color("ColorGreenAdaptive"))
@@ -73,7 +73,7 @@ struct RecipeDetailView: View {
                             Text(item)
                                 .lineLimit(nil)
                                 .multilineTextAlignment(.center)
-                                .font(.system(.body, design: .serif))
+                                .font(.system(.body))
                                 .frame(minHeight: 100)
                             
                         }

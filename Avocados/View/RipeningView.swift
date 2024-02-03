@@ -38,11 +38,11 @@ struct RipeningView: View {
                 //STAGE
                 VStack(alignment: .center, spacing: 0) {
                     Text(ripening.stage)
-                        .font(.system(.largeTitle, design: .serif))
+                        .font(.system(.largeTitle))
                         .fontWeight(.bold)
                                     
                     Text("STAGE")
-                        .font(.system(.body, design: .serif))
+                        .font(.system(.body))
                         .fontWeight(.heavy)
                     
 
@@ -56,7 +56,7 @@ struct RipeningView: View {
                 
                 //TITLE
                 Text(ripening.title)
-                    .font(.system(.title, design: .serif))
+                    .font(.system(.title))
                     .fontWeight(.bold)
                     .foregroundColor(Color("ColorGreenMedium"))
                     .padding(.vertical, 12)
@@ -79,7 +79,7 @@ struct RipeningView: View {
                 //RIPENESS
                 Text(ripening.ripeness)
                     .foregroundColor(.white)
-                    .font(.system(.callout, design: .serif))
+                    .font(.system(.callout))
                     .fontWeight(.bold)
                     .shadow(radius: 3)
                     .padding(.vertical)

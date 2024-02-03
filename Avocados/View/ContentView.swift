@@ -76,7 +76,7 @@ struct ContentView: View {
 
                     
                     Text("Everything you wanted know about avocados but were too afraid to ask.")
-                        .font(.system(.body,design: .serif))
+                        .font(.system(.body))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.gray)
                 }
@@ -94,7 +94,7 @@ struct ContentView: View {
 struct TitleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-        .font(.system(.title, design: .serif))
+        .font(.system(.title))
         .foregroundColor(Color("ColorGreenAdaptive"))
         .padding(8)
     }

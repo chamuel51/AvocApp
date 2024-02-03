@@ -28,7 +28,7 @@ struct AvocadosView: View {
             
             VStack {
                 Text("Avocados".uppercased())
-                    .font(.system(size: 42, weight: .bold, design: .serif))
+                    .font(.system(size: 42, weight: .bold))
                     .foregroundColor(.white)
                     .padding()
                     .shadow(color: Color("ColorBlackTransparentDark"), radius: 4, x: 0, y: 4)
@@ -37,7 +37,7 @@ Creamy, green, and full of nutrients!
  Avocado is a powerhouse ingredient at any meal. Enjoy these handpicked avocado recipes for breakfast, lunch, dinner & more!
 """)
                     .lineLimit(nil)
-                    .font(.system(.headline, design: .serif))
+                    .font(.system(.headline))
                     .foregroundColor(Color("ColorGreenLight"))
                     .multilineTextAlignment(.center)
                     .lineSpacing(8)

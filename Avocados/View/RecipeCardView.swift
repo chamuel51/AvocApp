@@ -38,14 +38,14 @@ struct RecipeCardView: View {
             VStack(alignment: .leading, spacing: 12) {
                 // TITLE
                 Text(recipe.title)
-                    .font(.system(.title, design: .serif))
+                    .font(.system(.title))
                     .fontWeight(.bold)
-                    .foregroundColor(Color("ColorGreenMedium"))
+                    .foregroundColor(Color("ColorGreenAdaptive"))
                     .lineLimit(1)
                 
                 // HEADLINE
                 Text(recipe.headline)
-                    .font(.system(.body, design: .serif))
+                    .font(.system(.body))
                     .foregroundColor(.gray)
                     .italic()
                 
@@ -62,7 +62,7 @@ struct RecipeCardView: View {
             .padding()
             .padding(.bottom,12)
         }
-        .background(.white)
+        .background(Color("ColorAppearanceAdaptive"))
         .cornerRadius(12)
         .shadow(color: Color("ColorBlackTransparentLight"), radius: 8, x: 0, y: 0)
         .onTapGesture {
@@ -82,6 +82,6 @@ struct RecipeCardView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeCardView(recipe: recipesData[0])
             .previewLayout(.sizeThatFits)
-            .environment(\.colorScheme, .dark)
+//            .environment(\.colorScheme, .dark)
     }
 }

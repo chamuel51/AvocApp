@@ -24,7 +24,7 @@ struct SettingsView: View {
                     .frame(width: 100, height: 100, alignment: .center)
                     .shadow(color: Color("ColorBlackTransparentLight"), radius: 8, x: 0, y: 4)
                 Text("Avocados".uppercased())
-                    .font(.system(.title, design: .serif))
+                    .font(.system(.title))
                     .fontWeight(.bold)
                     .foregroundColor(Color("ColorGreenAdaptive"))
             }
@@ -47,7 +47,7 @@ struct SettingsView: View {
                         HStack {
                             Text("Product").foregroundColor(.gray)
                             Spacer()
-                            Text("Avocado Recipes")
+                            Text("AvocApp")
                         }
                         HStack {
                             Text("Compatibility").foregroundColor(.gray)
@@ -57,17 +57,17 @@ struct SettingsView: View {
                         HStack {
                             Text("Developer").foregroundColor(.gray)
                             Spacer()
-                            Text("Chamuel Castillo")
+                            Text("Miguel Chamuel Jimenez")
                         }
                         HStack {
                             Text("Designer").foregroundColor(.gray)
                             Spacer()
-                            Text("Chami")
+                            Text("Course")
                         }
                         HStack {
                             Text("Website").foregroundColor(.gray)
                             Spacer()
-                            Text("chamuel.tech")
+                            Text("migueljimenez.dev")
                         }
                         HStack {
                             Text("version").foregroundColor(.gray)
@@ -78,7 +78,7 @@ struct SettingsView: View {
                         HStack{
                             Text("Personal message").foregroundColor(.gray)
                             Spacer()
-                            Text("We did it!!!")
+                            Text("Everybody love avocado")
                         }
                     }
                     

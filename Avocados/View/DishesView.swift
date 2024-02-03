@@ -93,7 +93,7 @@ struct DishesView: View {
                 }
             }
         }
-        .font(.system(.callout,design: .serif))
+        .font(.system(.callout))
         .foregroundColor(.gray)
         .padding(.horizontal)
         .frame(maxHeight: 220)
