@@ -1,16 +1,19 @@
 
+
+<p align="center">
+  <a href="">
+    <img src="https://github.com/chamuel51/AvocApp/assets/17075375/d0deb221-31ec-480e-8ed4-5f8874415479" alt="Logo" width="200" height="200" style="border-radius:50%"   >
+  </a>
+</p>
+
+# AvocApp
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-
-# AvocApp
 <br />
 <p align="center">
-  <a href="https://github.com/alexanderritik/Best-README-Template">
-    <img src="https://github.com/chamuel51/AvocApp/assets/17075375/d0deb221-31ec-480e-8ed4-5f8874415479" alt="Logo" width="120" height="120" style="border-radius:50%"   >
-  </a>
+
   <p align="left">
    AvocApp is not just an app; it's your avocado ally. Whether you're a seasoned chef or a beginner in the kitchen, avocApp ensures that your avocado adventures are not only delicious but also hassle-free. Download avocApp now and elevate your avocado.
   </p>
