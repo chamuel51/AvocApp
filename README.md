@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/chamuel51/AvocApp/assets/17075375/d0deb221-31ec-480e-8ed4-5f8874415479" alt="Logo" width="200" height="200" style="border-radius:50%"   >
+    <img src="https://github.com/chamuel51/AvocApp/assets/17075375/d0deb221-31ec-480e-8ed4-5f8874415479" alt="Logo" width="120" height="120" style="border-radius:50%"   >
   </a>
 </p>
 
